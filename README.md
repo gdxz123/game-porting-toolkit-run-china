@@ -256,6 +256,12 @@ killall -9 wineserver && killall -9 wine64-preloader
 反作弊系统和数字版权系统：
 可能不会有任何使用反作弊的游戏的修复，例如轻松反作弊。有些游戏有变通办法，例如Elden Ring。其他使用Denuvo的游戏也可能是不兼容的，直到该DRM被游戏开发商删除。
 
+
+
+<image src="./image/battle.jpg" width="600"/>
+
+
+
 ### 八、游戏移植测试情况
 游戏移植Mac测试情况(Playable-可玩，Runs-能运行，Perfect-完美)：
 
