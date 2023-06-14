@@ -1,7 +1,7 @@
 # game-porting-toolkit-run-china
 在中国，MacOS使用game porting toolkit 移植windows游戏教程
 
-文章从https://www.applegamingwiki.com/wiki/Game_Porting_Toolkit 机器翻译加我人工校正修改而来，同时我增加了适合中国网络环境的方案（因为网络的原因），这个文章是目前最全且稳定的运行苹果Game Porting Toolkit的方案
+文章从https://www.applegamingwiki.com/wiki/Game_Porting_Toolkit 机器翻译加我人工校正修改而来，同时我增加了适合中国网络环境的方案（因为网络的原因），这个文章是目前最全且稳定的运行苹果Game Porting Toolkit的方案，github为最新版本：https://github.com/gdxz123/game-porting-toolkit-run-china/
 
 苹果游戏移植工具(Game Porting Toolkit)
 文章运行的电脑：MacBook pro M1
@@ -114,7 +114,6 @@ ditto /Volumes/Game\ Porting\ Toolkit-1.0/lib/ `brew --prefix game-porting-toolk
 cp /Volumes/Game\ Porting\ Toolkit*/gameportingtoolkit* /usr/local/bin
 ```
 
-
 ### 五、Wine前缀配置
 Wine前缀包含一个虚拟C盘驱动器，类似于CrossOver中的Bottle。您将把工具包和游戏安装到这个虚拟C盘驱动器中。运行以下命令在您的主目录中创建一个新的Wine前缀，名为my game prefix。这将创建一个名为“my-game-prefix”的Wine前缀，但可以重命名为任何前缀：
 ```
@@ -191,7 +190,7 @@ gameportingtoolkit ~/my-game-prefix ~/Downloads/Battle.net-Setup.exe
 
 命令行启动战网
 ```
-gameportingtoolkit ~/my-game-prefix 'C:\Program Files (x86)/Battle.net/Battle.net.exe’
+gameportingtoolkit ~/my-game-prefix 'C:\Program Files (x86)/Battle.net/Battle.net.exe'
 ```
 
 请注意，一旦安装，启动Battle.net就会出现问题，当前唯一的重新登录方法是再次“安装”战网。
