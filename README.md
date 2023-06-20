@@ -27,7 +27,7 @@
 
 在Terminal写入命令行安装Rosetta：
 ```
-softwareupdate —install-rosetta
+softwareupdate -—install-rosetta
 ```
 
 切换到x86_64版本的shell因为Rosetta需要x86环境执行。所有后续命令都应该在这个x86版本的shell中运行（如果意外关闭了Terminal，重启后要再切换到x86版本）。
