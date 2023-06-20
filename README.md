@@ -39,18 +39,18 @@ arch -x86_64 zsh
 
 如果您还没有安装x86_64版本的Homebrew，请安装它：
 ```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 注意这个命令在中国大概率成功不了，因为链接被墙了。我们用国内的镜像链接来安装：
 ```
-/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)”
+/bin/bash -c "$(curl -fsSL https://gitee.com/ineo6/homebrew-install/raw/master/install.sh)"
 ```
 
 配置环境路径：
 ```
 (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/$USER/.zprofile
-eval "$(/usr/local/bin/brew shellenv)”
+eval "$(/usr/local/bin/brew shellenv)"
 ```
 
 用下面指令确认安装的brew在你电脑上：
