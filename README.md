@@ -153,6 +153,9 @@ MTL_HUD_ENABLED=1 WINEESYNC=1 WINEPREFIX=~/my-game-prefix /usr/local/Cellar/game
 
 解决方案3(推荐）:使用其他端登录好的状态拷贝到Wine里面的Steam去。登录Mac版本Steam，然后复制三个文件/文件夹：config、registry.vdf、userdata到~/my-game-prefix/drive_c/Program Files (x86)/Steam/
 
+
+- 5、如果运行Steam，只看到APP图标，没看到画面，把除了终端之外所有的窗口（包括浏览器）全关掉，用killall -9 wineserver && killall -9 wine64-preloader 命令关掉之前创建的 wine 进程，再重新启动Steam
+
 #### Battle.net(战网软件)：
 下载[Battle.net的Windows版本](https://download.battle.net/en-gb/?platform=windows)，并将其放入“下载”文件夹中。
 
