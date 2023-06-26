@@ -130,6 +130,9 @@ WINEPREFIX=~/my-game-prefix `brew --prefix game-porting-toolkit`/bin/wine64 wine
 现在，您已经准备好将启动器或单个Windows游戏安装到此Wine前缀中，请参见下文。
 
 ### 六、安装各种主流程序
+
+目前发现浏览器开启可能会影响Game Porting Toolkit运行，最好把浏览器都完全关闭，然后再去运行下面程序
+
 #### Steam：
 - 1、下载Windows版本的[Steam](https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe)并将其放在下载文件夹中。
 - 2、用命令行安装Windows版本Steam:
