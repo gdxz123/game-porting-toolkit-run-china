@@ -104,9 +104,9 @@ brew update brew -v install apple/apple/game-porting-toolkit
 ```
 
 ### 四、配置GPTK
-确保之前下载的游戏移植工具包dmg安装在/Volumes/Game Porting Toolkit-1.0上。使用此下面命令将Game Porting Toolkit库目录复制到Wine的库目录中：
+确保之前下载的游戏移植工具包dmg安装在/Volumes/Game Porting Toolkit-1.0上（默认）。使用此下面命令将Game Porting Toolkit库目录复制到Wine的库目录中：
 ```
-ditto /Volumes/Game\ Porting\ Toolkit-1.0/lib/ `brew --prefix game-porting-toolkit`/lib/
+ditto /Volumes/Game\ Porting\ Toolkit-1.0/redist/lib/ `brew --prefix game-porting-toolkit`/lib/
 ```
 
 使用以下命令将游戏移植工具包DMG中的3个脚本放入/usr/local/bin中：
